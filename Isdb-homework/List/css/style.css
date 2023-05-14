@@ -1,0 +1,46 @@
+body{
+    width: 600px;
+    margin: 0 auto;
+    height: auto;
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1, h2, h3, h4, h5, h6
+{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.Content
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    min-height: 150px;
+    margin: 20px;
+}
+.ListName
+{
+    padding: 5px 0px;
+    font-size: 18px;
+    line-height: 18px;
+    background-color: darkblue;
+    color: white;
+}
+.innerContent
+{
+    overflow: hidden;
+}
+
+.Fleft
+{
+    float: left;
+}
+.UoListCircel > Ul > li
+{
+    list-style-type: circle;
+}
+
+.UoListSqure > Ul > li
+{
+    list-style-type: square;
+}

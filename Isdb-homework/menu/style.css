@@ -1,0 +1,85 @@
+body
+{
+    width: 1170px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container
+{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 5px;
+    min-height: 600px;
+}
+.header img
+{
+    height: 120px;
+    width: 1169px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#nav
+{
+    float: left;
+    width: 1169px;
+    padding: 0px;
+    background-color: black;
+    margin: 0px;
+    height: 33px;
+    line-height: 33px;
+}
+#nav li
+{
+    list-style-type: none;
+    float: left;
+    position: relative;
+    margin: 0;
+    padding-bottom: 20px;
+}
+#nav li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: gray;
+}
+
+#nav li:hover
+{
+    background-color: red;
+    /*display: block;*/
+    position: absolute;
+}
+
+#nav ul
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 150px;
+    /* Fix for IE 7 */
+    background-color: #FFF;
+}
+
+#nav ul li
+{
+    list-style-type: none;
+    float: left;
+    position: relative;
+    margin: 0;
+    padding-bottom: 20px;
+}
+#nav ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: gray;
+}
+
+input:required:before
+{
+    content: '*';
+    background-color: red;
+}

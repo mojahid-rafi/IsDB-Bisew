@@ -1,0 +1,56 @@
+
+.rubik { font-family: 'Rubik', sans-serif; }
+.roboto { font-family: 'Roboto', sans-serif; }
+
+.fw-400 { font-weight: 400 }
+.fw-500 { font-weight: 500 }
+.fw-400 {}
+.fw-400 {}
+
+.h-50 {height: 50px; }
+.h-100 {height: 100px; }
+.h-150 {height: 150px; }
+.h-200 {height: 200px; }
+.h-250 {height: 250px; }
+.h-300 {height: 300px; }
+.h-350 {height: 350px; }
+.h-400 {height: 400px; }
+.h-450 {height: 450px; }
+
+.cs-btn { background-color: #EAF0F3; }
+.theme-ac-btn { background-color: #FCAC1C; }
+.cs-btn:hover{ background-color: #FCAC1C; }
+
+
+.p-color { background-color: #143059; }
+.p-text-clr { color: #143059; }
+.s-color { background-color: #FBC55D;}
+.bg-gray {background-color: #F0ECE8}
+
+
+/*Start Social Media Section*/
+.sc-wrapper a
+{
+    color: #143059;
+}
+/*End Social Media Section*/
+
+.card { border: none; }
+.pricing > .card
+{
+    box-shadow: 0px 1px 5px 1.5px silver;
+}
+.p-name
+{
+    /*font-weight: bold;*/
+    font-weight: 700;
+}
+.price
+{
+    color: #fff;
+}
+sup
+{
+    top: -1.5em;
+    font-size: 16px;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converter</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container py-5">
+    <div class="row mb-5">
+        <div class="col-5">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="fw-bold">Mile to Kilometer Converter</h4>
+                </div>
+                <div class="card-body">
+                    <form action="#" class="row g-3">
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                                <label for="mile" class="col-form-label">Enter Mile</label>
+                            </div>
+                            <div class="col-auto">
+                                <input type="text" id="mile" class="form-control">
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" onclick="MileToKm()" class="btn btn-outline-success">Calculate
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <p class="lead text-success fw-bolder" id="KmResult"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="offset-2 col-5">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="fw-bold">Inch to Centimeter Converter</h4>
+                </div>
+                <div class="card-body">
+                    <form action="#" class="row g-3">
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                                <label for="mile" class="col-form-label">Enter Inch</label>
+                            </div>
+                            <div class="col-auto">
+                                <input type="text" id="inch" class="form-control">
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" onclick="InchToKm()" class="btn btn-outline-success">Calculate
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <p class="lead text-success fw-bolder" id="CmResult"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-5">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="fw-bold">Feet to Inch Converter</h4>
+                </div>
+                <div class="card-body">
+                    <form action="#" class="row g-3">
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                                <label for="mile" class="col-form-label">Enter Feet</label>
+                            </div>
+                            <div class="col-auto">
+                                <input type="text" id="feet" class="form-control">
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" onclick="FeetToInch()" class="btn btn-outline-success">Calculate
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <p class="lead text-success fw-bolder" id="InchResult"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 id="m"></h1>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function MileToKm() {
+
+        var mile = Number(document.querySelector("#mile").value);
+        document.querySelector("#KmResult").innerHTML = mile + " Mile = " + mile * 1.60934 + " km";
+    }
+
+    function InchToKm() {
+        var inch = Number(document.querySelector("#inch").value);
+        document.querySelector("#CmResult").innerHTML = inch + " Inch = " + inch * 2.54 + " Centimeter";
+    }
+
+    function FeetToInch() {
+        var feet = Number(document.querySelector("#feet").value);
+        document.querySelector("#InchResult").innerHTML = feet + " Feet = " + feet * 12 + " Inch";
+    }
+
+</script>
+
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

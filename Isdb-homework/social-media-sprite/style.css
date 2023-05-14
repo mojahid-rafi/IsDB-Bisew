@@ -1,0 +1,67 @@
+.wrapper
+{
+    width: 735px;
+    height: 59px;
+}
+.twitter
+ {
+    background-image: url("./images/social-icons.webp");
+    width: 59px;
+    height: 59px;
+    transition: all;
+    transition-duration: 1s;
+    float: left;
+ }
+.twitter:hover
+{
+    background-image: url("./images/social-icons.webp");
+    background-position: 0px -58px;
+}
+
+.fb
+{
+    background-image: url("./images/social-icons.webp");
+    width: 59px;
+    height: 59px;
+    transition: all;
+    transition-duration: 1s;
+    float: left;
+    background-position: -57px 116px;
+}
+.fb:hover
+{
+    background-image: url("./images/social-icons.webp");
+    background-position: -57px 59px;
+}
+
+.inst
+{
+    background-image: url("./images/social-icons.webp");
+    width: 59px;
+    height: 59px;
+    transition: all;
+    transition-duration: 1s;
+    float: left;
+    background-position: -114px 0px;
+}
+.inst:hover
+{
+    background-image: url("./images/social-icons.webp");
+    background-position: -114px -59px;
+}
+
+.prin
+{
+    background-image: url("./images/social-icons.webp");
+    width: 59px;
+    height: 59px;
+    transition: all;
+    transition-duration: 1s;
+    float: left;
+    background-position: -170px 0px;
+}
+.prin:hover
+{
+    background-image: url("./images/social-icons.webp");
+    background-position: -170px -59px;
+}

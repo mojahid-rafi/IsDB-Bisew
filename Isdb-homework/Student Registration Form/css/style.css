@@ -1,0 +1,49 @@
+body
+{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.form-wrapper
+{
+    background-color: #6B5BCD;
+    width: 750px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: #ffff;
+}
+h2
+{
+    color: #6B5BCD;
+    text-decoration: underline;
+    font-weight: 600;
+    text-align: center;
+}
+
+form
+{
+    font-size: 10px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* table */
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+/* table, tr, td
+{
+    border: 1px solid black;
+} */
+span
+{
+    font-size: 12px;
+}
+.lbl
+{
+    width: 150px;
+}
+.textBox
+{
+    width: 150px;
+}

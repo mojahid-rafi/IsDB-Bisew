@@ -1,0 +1,166 @@
+body
+{
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    background-color: aliceblue;
+    font-family: 'Hind Siliguri', sans-serif;
+    
+}
+
+.bangla
+{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.header
+{
+    box-shadow:  0 1px 8px 0 rgba(0,0,0,.1);
+    padding: 10px 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.logo
+{
+    width: 150px;
+}
+.logo img
+{
+    width: 130px;
+    float: left;
+}
+
+.menu
+{
+    width: 1010px;
+    overflow: hidden;
+}
+ul
+{
+
+}
+ul > li
+{
+    list-style-type: none;
+    float: left;
+}
+ul > li > a
+{
+    text-decoration: none;
+    color: #8c0e8d;
+    padding: 0px 20px;
+}
+
+
+
+.container
+{
+    min-height: 700px;
+    width: 1170px;
+}
+
+/* Call Center Info */
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+table tr > th
+{
+    background-color: #8c0e8d;
+    color: white;
+    padding: 10px 5px;
+}
+table > tr > th, td
+{
+    border: 1px solid green;
+    padding: 10px 5px;
+}
+
+
+/* conrona info */
+
+.post
+{
+    display: inline-block;
+}
+.post-img
+{
+    width: 350px;
+    float: left;
+}
+.content
+{
+    padding: 0px 10px;
+    float: left;
+    width: 700px;
+}
+
+.footer
+{
+    background-color: aliceblue;
+}
+
+.twitter
+{
+    background-image: url("../images/social-icons.webp");
+    width: 59px;
+    height: 59px;
+    transition: all;
+    transition-duration: 1s;
+    float: left;
+}
+.twitter:hover
+{
+    background-image: url("../images/social-icons.webp");
+    background-position: 0px -58px;
+}
+
+.fb
+{
+    background-image: url("../images/social-icons.webp");
+    width: 59px;
+    height: 59px;
+    transition: all;
+    transition-duration: 1s;
+    float: left;
+    background-position: -57px 116px;
+}
+.fb:hover
+{
+    background-image: url("../images/social-icons.webp");
+    background-position: -57px 59px;
+}
+
+.inst
+{
+    background-image: url("../images/social-icons.webp");
+    width: 59px;
+    height: 59px;
+    transition: all;
+    transition-duration: 1s;
+    float: left;
+    background-position: -114px 0px;
+}
+.inst:hover
+{
+    background-image: url("../images/social-icons.webp");
+    background-position: -114px -59px;
+}
+
+.prin
+{
+    background-image: url("../images/social-icons.webp");
+    width: 59px;
+    height: 59px;
+    transition: all;
+    transition-duration: 1s;
+    float: left;
+    background-position: -170px 0px;
+}
+.prin:hover
+{
+    background-image: url("../images/social-icons.webp");
+    background-position: -170px -59px;
+}

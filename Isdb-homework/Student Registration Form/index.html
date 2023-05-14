@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+    
+    <h2>Student Registration Form</h2>
+
+    <div class="form-wrapper">
+
+        <table>
+            <tr>
+                <td class="lbl"><label for="FName">First Name</label></td>
+                <td class="textBox"><input type="text" name="FName" id="FName"></td>
+                <td><span>max 30 characters a-z and A-Z</span></td>
+            </tr>
+            <tr>
+                <td class="lbl"><label for="LName">Last Name</label></td>
+                <td><input type="text" name="LName" id="LName"></td>
+                <td><span>max 30 characters a-z and A-Z</span></td>
+            </tr>
+            <tr>
+                <td class="lbl"><label for="dob">Date of Birth</label></td>
+                <td><input type="date" name="dob" id="dob"></td>
+            </tr>
+            <tr>
+                <td class="lbl"><label for="email">Email ID</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td class="lbl"><label for="phone">Mobile Number</label></td>
+                <td><input type="text" name="phone" id="phone"></td>
+                <td><span>(10 Digit Number)</span></td>
+            </tr>
+            <tr>
+                <td class="lbl"><label for="gender">Gender</label></td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input type="radio" name="gender" id="male" value="Male"><label for="male">Male</label>
+                            </td>
+                            <td><input type="radio" name="gender" id="female" value="Female"><label
+                                    for="female">Female</label></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="lbl"><label for="address">Address</label></td>
+                <td colspan="2"><textarea name="address" id="address" cols="40" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td class="lbl"><label for="city">City</label></td>
+                <td><input type="text" name="city" id="city"></td>
+                <td><span>max 30 characters a-z and A-Z</span></td>
+            </tr>
+            <tr>
+                <td class="lbl"><label for="pin">PIN Code</label></td>
+                <td><input type="text" name="pin" id="pin"></td>
+                <td><span>6 Digit Number</span></td>
+            </tr>
+            <tr>
+                <td class="lbl"><label for="state">State</label></td>
+                <td><input type="text" name="state" id="state"></td>
+                <td><span>max 30 characters a-z and A-Z</span></td>
+            </tr>
+            <tr>
+                <td class="lbl"><label for="country">Country</label></td>
+                <td><input type="text" name="country" id="country" value="Bangladesh"></td>
+            </tr>
+            <tr>
+                <td class="lbl"><label for="hobbies">Hobbies</label></td>
+                <td><input type="checkbox" name="drawing" id="drawing"><label for="drawing">Drawing</label></td>
+                <td>
+                    <table style="width: 350px;">
+                        <tr>
+                            <td><input type="checkbox" name="sketching" id="sketching"><label
+                                    for="sketching">Sketching</label></td>
+                            <td><input type="checkbox" name="singing" id="singing"><label for="singing">Singing</label>
+                            </td>
+                            <td><input type="checkbox" name="dancing" id="dancing"><label for="dancing">Dancing</label>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="lbl"></td>
+                <td><input type="checkbox" name="OtherHobbies" id="OtherHobbies"><label
+                        for="OtherHobbies">Others</label></td>
+                <td><input type="text" name="OtherHobbies" id="OtherHobbies"></td>
+            </tr>
+
+            <tr>
+                <td colspan="15" style="height: 10px;"></td>
+            </tr>
+
+            <tr>
+                <td colspan="15">
+                    <table style="width: 100%;">
+                        <tr>
+                            <td class="lbl"><label for="country">Qualifiation</label></td>
+                            <td style="width: 50px;">Sl. No</td>
+                            <td><label for="examination">Examination</label></td>
+                            <td style="text-align: center;"><label for="board">Board</label></td>
+                            <td style="text-align: center;"><label for="percentage">Percentage</label></td>
+                            <td style="text-align: center;"><label for="passingYear">Year of Passing</label></td>
+                        </tr>
+                        <tr>
+                            <td class="lbl"></td>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type="text" name="board" id="board"></td>
+                            <td><input type="text" name="percentage" id="percentage"></td>
+                            <td><input type="text" name="passingYear" id="passingYear"></td>
+                        </tr>
+                        <tr>
+                            <td class="lbl"></td>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type="text" name="board" id="board"></td>
+                            <td><input type="text" name="percentage" id="percentage"></td>
+                            <td><input type="text" name="passingYear" id="passingYear"></td>
+                        </tr>
+                        <tr>
+                            <td class="lbl"></td>
+                            <td>3</td>
+                            <td>Gradutaion</td>
+                            <td><input type="text" name="board" id="board"></td>
+                            <td><input type="text" name="percentage" id="percentage"></td>
+                            <td><input type="text" name="passingYear" id="passingYear"></td>
+                        </tr>
+                        <tr>
+                            <td class="lbl"></td>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type="text" name="board" id="board"></td>
+                            <td><input type="text" name="percentage" id="percentage"></td>
+                            <td><input type="text" name="passingYear" id="passingYear"></td>
+                        </tr>
+                        <tr>
+                            <td class="lbl"></td>
+                            <td></td>
+                            <td></td>
+                            <td style="text-align: center;"><span>(10 Char. Max)</span></td>
+                            <td style="text-align: center;"><span>(Upto 2 Decimal)</span></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="lbl">Courses Applied For</td>
+                <td colspan="2">
+                    <table style="width: 30%;">
+                        <tr>
+                            <td><input type="radio" name="course" id="bca"><label for="bca">BCA</label></td>
+                            <td><input type="radio" name="course" id="bcom"><label for="bcom">B.Com</label></td>
+                            <td><input type="radio" name="course" id="ba"><label for="ba">B.A</label></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="12" style="text-align: center; padding: 10px 0px;"><input type="button" value="Submit"> <input type="button" value="Reset"></td>
+
+        </table>
+    </div>
+
+</body>
+
+</html>
